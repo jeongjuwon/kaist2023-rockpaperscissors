@@ -1,6 +1,21 @@
-# 아이폰 실행
+# npm 설치
 
 ```
+npm install
+npx pod-install # 또는 cd ios && pod install
+```
+
+# 아이폰 실행
+
+번들러는 자동으로 뜨지만 다음처럼 직접 실행하여 통제하는게 편하다.
+
+```
+# 터미널을 하나 실행한다.
+npx react-native start --reset-cache
+```
+
+```
+# 다른 터미널을 하나더 실행한다.
 npx react-native run-ios
 ```
 
